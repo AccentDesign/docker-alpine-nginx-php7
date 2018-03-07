@@ -9,3 +9,7 @@ Start your Docker container:
     docker-compose up
 
 See the PHP info on http://localhost, or the static html page on http://localhost/test.html
+
+Bash into your Docker container
+
+    docker-compose exec app /bin/sh
